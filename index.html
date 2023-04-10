@@ -6,19 +6,23 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+	<div id="header">
+		<a href="http://kireineko.ru/year-2016" target="_blank">Моя семья</a> <span>/</span>
+		<a href="загадки.html" class="link">Загадки</a> <span>/</span>
+		<a href="угадайка.html" class="link">Угадай число</a> <span>/</span>
+		<a href="index.html" class="link">Главная</a>
+	</div>
+
 	<div id="content">
-        <div id="header">
-        	<a href="http://kireineko.ru/year-2016" target="_blank">Моя семья</a> <span>/</span>
-            <a href="загадки.html" class="link">Загадки</a> <span>/</span>
-            <a href="угадайка.html" class="link">Угадай число</a> <span>/</span>
-            <a href="index.html" class="link">Главная</a>
-		</div>
-			<h1>Личный сайт Кота</h1>
+
 		<div id="center">
+			<h1>Личный сайт Кота</h1>
 			<img src="img/cat.jpg"
-				onmouseover="this.style.width='600px'"
-				onmouseout="this.style.width='480px'" 
+				onmouseover="this.style.width='40%'"
+				onmouseout="this.style.width='30%'" 
 				alt="увеличение фотографии">
+		</div>
 
 			<div id="box_text">
 				<p>Привет! Меня зовут Шок! Я дружу с Домовым. Меня кормят сметаной, и я сплю в постели хозяев. На фотографиях внизу мои сестра с братом (нас родилось сразу семь котиков), и мама Your Majesty Liliana. Мое полное имя Kireineko's Falcon. Порода британский короткошерстный. Окрас - шоколад. Родился 10 ноября 2016 года в г. Владивосток.</p>
@@ -27,23 +31,22 @@
 				<p>На моем сайте я могу с вами поиграть. Выбирайте: <br>
 				<a href="загадки.html"><button>Загадки</button></a>
 				<a href="угадайка.html"><button>Угадай число</button></a></p>
-				<img src="img/cat2.jpg"
-					style="margin: 15% 5%" alt="фотография">
-				<img src="img/cat1.jpg"
-					style="margin: -50px 0 0" alt="фотография">
+				<img src="img/cat2.jpg" alt="фотография">
+				<img src="img/cat1.jpg" alt="фотография">
 			</div>
 
-			<div class="my"><h6 onclick="soundClick()">
-  				<span>М</span>
-  				<span>Я</span>
-  				<span>У</span>
-  				<span>!</span>
-  				</h6>
-  			</div>
+		<div class="meow"><h6 onclick="soundClick()">
+  			<span>М</span>
+  			<span>Я</span>
+  			<span>У</span>
+  			<span>!</span>
+  			</h6>
   		</div>
+
   	</div>
-	<div id="footer">Copyright © 2017 <a href="#">KOT</a></div>
-  		
+  	
+		<div id="footer">Copyright © 2017 <a href="index.html">KOT</a></div>
+
   		<script type="text/javascript">
 		function soundClick() {
 		/*h6:hover span {*/
